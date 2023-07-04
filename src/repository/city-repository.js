@@ -38,6 +38,7 @@ class CityRepository {
 					id: cityId,
 				},
 			});
+			return cityObj;
 		} catch (error) {
 			console.log(error);
 		}
