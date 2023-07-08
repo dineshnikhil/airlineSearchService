@@ -18,9 +18,9 @@ const create_and_start_server = async () => {
 	// start the server at the specific port.
 	app.listen(PORT, () => {
 		console.log(`server has started at port : ${PORT}`);
-		if (SYNC_DB) {
-			db.sequelize.sync({ alter: true });
-		}
+		// if (SYNC_DB) {
+		// 	db.sequelize.sync({ alter: true });
+		// }
 	});
 };
 
